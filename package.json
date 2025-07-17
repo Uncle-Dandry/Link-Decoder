@@ -1,0 +1,11 @@
+{
+  "name": "link-decoder",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && cp src/index.html src/styles.css dist/",
+    "predeploy": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

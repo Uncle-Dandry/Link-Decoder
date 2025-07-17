@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      Link Decoder
+    </title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Link Decoder
+      </h1>
+
+      <p>
+        Вставьте зашифрованные ссылки слева (по одной на строку), нажмите «Decode» — справа появятся рабочие ссылки, доступные к переходу и копированию.
+      </p>
+    </header>
+
+    <main>
+      <section class="input-section">
+        <textarea id="input-area" placeholder="Вставьте сломанные ссылки, по одной на строку"></textarea>
+        <button id="decode-btn">Decode</button>
+      </section>
+
+      <section class="output-section">
+        <ul id="output-list"></ul>
+      </section>
+    </main>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
